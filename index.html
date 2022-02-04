@@ -190,7 +190,7 @@
                     <p>COMING SOON!</p>
                 </div>
 
-            
+
                 <!--
                 <div class="row">
                     <div class="col-xl-3 col-lg-6 col-md-6">
@@ -294,20 +294,21 @@
             <div class="container contact-container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
-                        <form action="https://formdump.codeinstitute.net" method="POST">
+                        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mvolkwgk" method="POST">
                             <h3>Let's work together:</h3>
                             <div class="form-group">
-                                <input type="text" name="txtName" class="form-control" placeholder="Your Name *"
+                                <input type="text" name="name" id="full-name" class="form-control" placeholder="Your Name *"
                                     required>
                             </div>
                             <div class="form-group">
-                                <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *"
+                                <input type="email" name="_replyto" id="email-address" class="form-control" placeholder="Your Email *"
                                     required>
                             </div>
                             <div class="form-group">
-                                <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                                <textarea name="message" id="message" class="form-control" placeholder="Your Message *"
                                     style="width: 100%; height: 300px;" required></textarea>
                             </div>
+                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                             <div class="form-group">
                                 <input type="submit" name="btnSubmit" class="btn btn-dark btn-success" value="Send" />
                             </div>
