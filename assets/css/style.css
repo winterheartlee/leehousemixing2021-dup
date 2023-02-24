@@ -248,13 +248,11 @@ a:hover {
 .job-role {
     border-top: none;
     text-align: center;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
     color: #111111;
     font-size: 14px;
     font-weight: bold;
-    position: absolute;
+
     bottom: 0;
 
 }
