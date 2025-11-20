@@ -58,7 +58,7 @@ a:hover {
 .callout-container {
     height: 100vh;
 
-    background: url('../images/lee-house-mixing-low-res.jpg') no-repeat center fixed;
+    background: url('../images/lee-house-mixing-2025-lowres.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -248,11 +248,13 @@ a:hover {
 .job-role {
     border-top: none;
     text-align: center;
-    padding: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     color: #111111;
     font-size: 14px;
     font-weight: bold;
-
+    position: absolute;
     bottom: 0;
 
 }
@@ -367,15 +369,5 @@ a:hover {
     }
 }
 
-.temp-box {
-    position: relative;
-    background-color: white;
-    height: 400px;
-    width: 70%;
-    z-index: 3;
-    margin-left: 15%;
-    text-align: center;
-    color: black;
-    padding-top: 150px;
-    font-size: 5rem;
-}
+
+
